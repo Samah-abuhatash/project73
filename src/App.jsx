@@ -1,15 +1,15 @@
-import { useState } from "react";
+
 import User from "./User";
 import Custombuton from "./shared/Custombuton";
 import Custominput from "./shared/Custominput";
 
 function App() {
-  const [users, setUsers] = useState([
+ let users  = [
     { id: 1, name: "tariq", email: "tariq@gmail.com", isBlocked: true },
     { id: 2, name: "anas", email: "anas@gmail.com", isBlocked: false },
     { id: 3, name: "hala", email: "thalaariq@gmail.com", isBlocked: true },
     { id: 4, name: "asmaa", email: "asmaa@gmail.com", isBlocked: true },
-  ]);
+ ];
 
   return (
     <div className="users">

@@ -7,7 +7,11 @@ return (
   <h3>{props.email}</h3>
   <div className="d-flex gap-2">
     <Custombuton text="Details" type="secondary" />
-    <Custombuton text="Delete" type="danger" />
+    <Custombuton text="Delete" type="green" />
+    <div>
+      samah
+      
+    </div>
   </div>
 </div>
 
